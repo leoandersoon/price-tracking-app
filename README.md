@@ -5,8 +5,8 @@ This app is providing you to track some online products' prices via GMAIL.
 Here are libraries that you'll need in that project; <br>
 
 1. requests <br>
-We need that library to web scrapping. <be>
-`pip install requests
+We need that library to web scrapping. <br>
+`pip install requests`
 
 2. smtplib <br>
 So we will have some scrapped prices. And we need to send those data to a mail adress. We need that library to acces SMTP. <br>
