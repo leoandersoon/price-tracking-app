@@ -1,5 +1,5 @@
 # Price Tracking App
-_variables and descriptions of that code is in Turkish language. but we're working on translate them into English._
+_variables and descriptions of that code is in Turkish language. but we're working on translate them into English._ <br>
 This app is providing you to track some online products' prices via GMAIL.
 
 # Libraries
