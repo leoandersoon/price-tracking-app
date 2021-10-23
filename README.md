@@ -1,4 +1,5 @@
 # Price Tracking App
+_variables and descriptions of that code is in Turkish language. but we're working on translate them into English.
 This app is providing you to track some online products' prices via GMAIL.
 
 # Libraries
@@ -16,5 +17,6 @@ _The smtplib library is already a standard package of Python. I mean, if you hav
 Beautiful Soup is a library that makes it easy to scrape information from web pages. It sits atop an HTML or XML parser, providing Pythonic idioms for iterating, searching, and modifying the parse tree. <br>
 `pip install beautifulsoup4`
 
-Sincerely, <br>
-_Leo Anderson_
+_Sincerely,_
+
+**Leo Anderson**
