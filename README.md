@@ -3,7 +3,7 @@ This app is providing you to track some online products' prices via GMAIL.
 <hr>
 # Libraries
 <br>
-Here are libraries that you'll need in that project;
+Here are libraries that you'll need in that project; <br>
 1. requests <br>
 We need that library to web scrapping.
 `python -m pip install requests
