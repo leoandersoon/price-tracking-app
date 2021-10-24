@@ -3,9 +3,13 @@ import smtplib
 import time
 from bs4 import BeautifulSoup
 
+
+
 url = 'https://www.hepsiburada.com/msi-modern-14-b10mw-271xtr-intel-core-i5-10210u-8gb-256gb-ssd-freedos-14-fhd-tasinabilir-bilgisayar-p-HBV0000147C06'
 
 headers = {'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36'} # you can find your user agent by searching "my user agent" on Google
+
+
 
 def check_price():
     page = requests.get(url, headers=headers)
@@ -20,8 +24,7 @@ def check_price():
     if(price < 12500): # we said, remind me when the price is under 12500₺
         send_mail(title)
 
-
-
+        
 def send_mail(title):
     sender = 'justanexample@gmail.com'
     receiver = 'justanotherexample@gmail.com'
@@ -41,6 +44,8 @@ def send_mail(title):
     finally:
         server.quit()
 
+        
+        
 while(1):
     check_price()
     time.sleep(60*60) # check the price once per hour
