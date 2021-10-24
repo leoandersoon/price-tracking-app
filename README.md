@@ -25,7 +25,7 @@ _The smtplib library is already a standard package of Python. I mean, if you hav
 3. BeautifulSoap <br>
 Beautiful Soup is a library that makes it easy to scrape information from web pages. It sits atop an HTML or XML parser, providing Pythonic idioms for iterating, searching, and modifying the parse tree. <br>
 
-    $ `pip install beautifulsoup4
+    $ `pip install beautifulsoup4`
 
 
 _Sincerely,_
