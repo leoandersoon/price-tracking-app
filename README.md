@@ -12,8 +12,6 @@ Here are libraries that you'll need in that project; <br>
 1. requests <br>
 We need that library to web scrapping. <br>
 
-.. code-block:: console
-
     $ `pip install requests`
 
 
@@ -26,8 +24,6 @@ _The smtplib library is already a standard package of Python. I mean, if you hav
 
 3. BeautifulSoap <br>
 Beautiful Soup is a library that makes it easy to scrape information from web pages. It sits atop an HTML or XML parser, providing Pythonic idioms for iterating, searching, and modifying the parse tree. <br>
-
-.. code-block:: console
 
     $ `pip install beautifulsoup4
 
